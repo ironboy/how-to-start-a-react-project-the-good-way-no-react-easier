@@ -1,0 +1,20 @@
+input,
+select {
+  border: 1px solid #ddd;
+}
+
+input:invalid:not([value=""]) {
+  border-color: rgb(173, 10, 10);
+}
+
+input:valid,
+select:valid {
+  border-color: rgb(5, 105, 5);
+}
+
+// trumf focus border color with valid color
+// room for improvment
+.form-control:focus:valid,
+.form-select:focus:valid {
+  border-color: rgb(5, 105, 5) !important;
+}
