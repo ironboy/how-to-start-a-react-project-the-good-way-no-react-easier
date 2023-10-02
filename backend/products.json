@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "productName": "Muffin - Banana Nut Individual",
+    "priceSEK": 260,
+    "eco": true
+  },
+  {
+    "id": 2,
+    "productName": "Beans - Soya Bean",
+    "priceSEK": 325,
+    "eco": false
+  },
+  {
+    "id": 3,
+    "productName": "Clam - Cherrystone",
+    "priceSEK": 376,
+    "eco": true
+  },
+  {
+    "id": 4,
+    "productName": "Muffin Carrot - Individual",
+    "priceSEK": 73,
+    "eco": true
+  },
+  {
+    "id": 5,
+    "productName": "Goat - Whole Cut",
+    "priceSEK": 24,
+    "eco": false
+  },
+  {
+    "id": 6,
+    "productName": "Syrup - Pancake",
+    "priceSEK": 366,
+    "eco": true
+  },
+  {
+    "id": 7,
+    "productName": "Onion Powder",
+    "priceSEK": 165,
+    "eco": true
+  },
+  {
+    "id": 8,
+    "productName": "Juice - Clamato, 341 Ml",
+    "priceSEK": 298,
+    "eco": false
+  },
+  {
+    "id": 9,
+    "productName": "Cabbage - Green",
+    "priceSEK": 391,
+    "eco": true
+  },
+  {
+    "id": 10,
+    "productName": "Chicken - Breast, 5 - 7 Oz",
+    "priceSEK": 43,
+    "eco": true
+  },
+  {
+    "id": 11,
+    "productName": "Yogurt - Strawberry, 175 Gr",
+    "priceSEK": 130,
+    "eco": false
+  },
+  {
+    "id": 12,
+    "productName": "Syrup - Pancake",
+    "priceSEK": 117,
+    "eco": false
+  },
+  {
+    "id": 13,
+    "productName": "Tomato - Tricolor Cherry",
+    "priceSEK": 125,
+    "eco": true
+  },
+  {
+    "id": 14,
+    "productName": "Bread Fig And Almond",
+    "priceSEK": 83,
+    "eco": true
+  },
+  {
+    "id": 15,
+    "productName": "Mix - Cocktail Strawberry Daiquiri",
+    "priceSEK": 240,
+    "eco": false
+  },
+  {
+    "id": 16,
+    "productName": "Lamb - Whole, Frozen",
+    "priceSEK": 214,
+    "eco": true
+  },
+  {
+    "id": 17,
+    "productName": "Oil - Shortening,liqud, Fry",
+    "priceSEK": 98,
+    "eco": false
+  },
+  {
+    "id": 18,
+    "productName": "Seabream Whole Farmed",
+    "priceSEK": 295,
+    "eco": false
+  },
+  {
+    "id": 19,
+    "productName": "Smoked Tongue",
+    "priceSEK": 161,
+    "eco": false
+  },
+  {
+    "id": 20,
+    "productName": "Chicken Breast Halal",
+    "priceSEK": 91,
+    "eco": false
+  },
+  {
+    "id": 21,
+    "productName": "Wine - Kwv Chenin Blanc South",
+    "priceSEK": 274,
+    "eco": true
+  },
+  {
+    "id": 22,
+    "productName": "Wine - Fino Tio Pepe Gonzalez",
+    "priceSEK": 354,
+    "eco": true
+  },
+  {
+    "id": 23,
+    "productName": "Sage - Rubbed",
+    "priceSEK": 111,
+    "eco": false
+  },
+  {
+    "id": 24,
+    "productName": "Hummus - Spread",
+    "priceSEK": 198,
+    "eco": false
+  },
+  {
+    "id": 25,
+    "productName": "Sherbet - Raspberry",
+    "priceSEK": 283,
+    "eco": false
+  },
+  {
+    "id": 26,
+    "productName": "Bouq All Italian - Primerba",
+    "priceSEK": 186,
+    "eco": true
+  },
+  {
+    "id": 27,
+    "productName": "Plate Foam Laminated 9in Blk",
+    "priceSEK": 346,
+    "eco": false
+  },
+  {
+    "id": 28,
+    "productName": "Cheese - Taleggio D.o.p.",
+    "priceSEK": 187,
+    "eco": true
+  },
+  {
+    "id": 29,
+    "productName": "Wine - Muscadet Sur Lie",
+    "priceSEK": 391,
+    "eco": false
+  },
+  {
+    "id": 30,
+    "productName": "Beer - Guiness",
+    "priceSEK": 375,
+    "eco": true
+  },
+  {
+    "id": 31,
+    "productName": "Dr. Pepper - 355ml",
+    "priceSEK": 39,
+    "eco": false
+  },
+  {
+    "id": 32,
+    "productName": "Sprouts - China Rose",
+    "priceSEK": 279,
+    "eco": false
+  },
+  {
+    "id": 33,
+    "productName": "Mushroom - Oyster, Fresh",
+    "priceSEK": 244,
+    "eco": true
+  },
+  {
+    "id": 34,
+    "productName": "Lamb - Shanks",
+    "priceSEK": 171,
+    "eco": false
+  },
+  {
+    "id": 35,
+    "productName": "Wine - Vidal Icewine Magnotta",
+    "priceSEK": 200,
+    "eco": true
+  },
+  {
+    "id": 36,
+    "productName": "Pepper - White, Ground",
+    "priceSEK": 153,
+    "eco": true
+  },
+  {
+    "id": 37,
+    "productName": "Chilli Paste, Sambal Oelek",
+    "priceSEK": 368,
+    "eco": false
+  },
+  {
+    "id": 38,
+    "productName": "Lychee",
+    "priceSEK": 247,
+    "eco": true
+  },
+  {
+    "id": 39,
+    "productName": "Bar Bran Honey Nut",
+    "priceSEK": 153,
+    "eco": false
+  },
+  {
+    "id": 40,
+    "productName": "Appetizer - Mushroom Tart",
+    "priceSEK": 282,
+    "eco": true
+  },
+  {
+    "id": 41,
+    "productName": "Puree - Guava",
+    "priceSEK": 279,
+    "eco": true
+  },
+  {
+    "id": 42,
+    "productName": "Cheese - Brie",
+    "priceSEK": 82,
+    "eco": false
+  },
+  {
+    "id": 43,
+    "productName": "Wine - Rosso Toscano Igt",
+    "priceSEK": 399,
+    "eco": true
+  },
+  {
+    "id": 44,
+    "productName": "Tart - Pecan Butter Squares",
+    "priceSEK": 395,
+    "eco": true
+  },
+  {
+    "id": 45,
+    "productName": "Broom And Broom Rack White",
+    "priceSEK": 118,
+    "eco": true
+  },
+  {
+    "id": 46,
+    "productName": "Bouillion - Fish",
+    "priceSEK": 107,
+    "eco": false
+  },
+  {
+    "id": 47,
+    "productName": "Rabbit - Whole",
+    "priceSEK": 215,
+    "eco": false
+  },
+  {
+    "id": 48,
+    "productName": "Tea - Darjeeling, Azzura",
+    "priceSEK": 207,
+    "eco": false
+  },
+  {
+    "id": 49,
+    "productName": "Chef Hat 20cm",
+    "priceSEK": 83,
+    "eco": true
+  },
+  {
+    "id": 50,
+    "productName": "Arizona - Plum Green Tea",
+    "priceSEK": 364,
+    "eco": false
+  },
+  {
+    "id": 51,
+    "productName": "Vodka - Smirnoff",
+    "priceSEK": 201,
+    "eco": true
+  },
+  {
+    "id": 52,
+    "productName": "Pepper - Julienne, Frozen",
+    "priceSEK": 81,
+    "eco": true
+  },
+  {
+    "id": 53,
+    "productName": "Beef - Top Sirloin - Aaa",
+    "priceSEK": 175,
+    "eco": true
+  },
+  {
+    "id": 54,
+    "productName": "Tia Maria",
+    "priceSEK": 151,
+    "eco": true
+  },
+  {
+    "id": 55,
+    "productName": "Flour - Fast / Rapid",
+    "priceSEK": 361,
+    "eco": true
+  },
+  {
+    "id": 56,
+    "productName": "Soup - Campbells Chili",
+    "priceSEK": 293,
+    "eco": true
+  },
+  {
+    "id": 57,
+    "productName": "Canadian Emmenthal",
+    "priceSEK": 279,
+    "eco": false
+  },
+  {
+    "id": 58,
+    "productName": "Turkey - Breast, Double",
+    "priceSEK": 52,
+    "eco": false
+  },
+  {
+    "id": 59,
+    "productName": "Vanilla Beans",
+    "priceSEK": 305,
+    "eco": true
+  },
+  {
+    "id": 60,
+    "productName": "Southern Comfort",
+    "priceSEK": 208,
+    "eco": false
+  },
+  {
+    "id": 61,
+    "productName": "Bag - Bread, White, Plain",
+    "priceSEK": 55,
+    "eco": false
+  },
+  {
+    "id": 62,
+    "productName": "Icecream Bar - Del Monte",
+    "priceSEK": 345,
+    "eco": true
+  },
+  {
+    "id": 63,
+    "productName": "Chocolate - Liqueur Cups With Foil",
+    "priceSEK": 241,
+    "eco": false
+  },
+  {
+    "id": 64,
+    "productName": "Pork - Side Ribs",
+    "priceSEK": 157,
+    "eco": false
+  },
+  {
+    "id": 65,
+    "productName": "Oxtail - Cut",
+    "priceSEK": 377,
+    "eco": true
+  },
+  {
+    "id": 66,
+    "productName": "Wine - Malbec Trapiche Reserve",
+    "priceSEK": 225,
+    "eco": true
+  },
+  {
+    "id": 67,
+    "productName": "Beef - Rib Roast, Capless",
+    "priceSEK": 253,
+    "eco": false
+  },
+  {
+    "id": 68,
+    "productName": "Potatoes - Peeled",
+    "priceSEK": 149,
+    "eco": false
+  },
+  {
+    "id": 69,
+    "productName": "Muffin Puck Ww Carrot",
+    "priceSEK": 39,
+    "eco": false
+  },
+  {
+    "id": 70,
+    "productName": "Cookie Dough - Oatmeal Rasin",
+    "priceSEK": 91,
+    "eco": true
+  },
+  {
+    "id": 71,
+    "productName": "Cookies Oatmeal Raisin",
+    "priceSEK": 221,
+    "eco": false
+  },
+  {
+    "id": 72,
+    "productName": "Pasta - Fett Alfredo, Single Serve",
+    "priceSEK": 210,
+    "eco": true
+  },
+  {
+    "id": 73,
+    "productName": "Arctic Char - Fresh, Whole",
+    "priceSEK": 165,
+    "eco": false
+  },
+  {
+    "id": 74,
+    "productName": "Mince Meat - Filling",
+    "priceSEK": 359,
+    "eco": false
+  },
+  {
+    "id": 75,
+    "productName": "Lid - 3oz Med Rec",
+    "priceSEK": 362,
+    "eco": false
+  },
+  {
+    "id": 76,
+    "productName": "Longos - Assorted Sandwich",
+    "priceSEK": 170,
+    "eco": false
+  },
+  {
+    "id": 77,
+    "productName": "Cake - Cake Sheet Macaroon",
+    "priceSEK": 226,
+    "eco": false
+  },
+  {
+    "id": 78,
+    "productName": "Wine - Merlot Vina Carmen",
+    "priceSEK": 72,
+    "eco": true
+  },
+  {
+    "id": 79,
+    "productName": "Rice - Long Grain",
+    "priceSEK": 331,
+    "eco": false
+  },
+  {
+    "id": 80,
+    "productName": "Pepper - Yellow Bell",
+    "priceSEK": 145,
+    "eco": true
+  },
+  {
+    "id": 81,
+    "productName": "Gloves - Goldtouch Disposable",
+    "priceSEK": 265,
+    "eco": true
+  },
+  {
+    "id": 82,
+    "productName": "Flounder - Fresh",
+    "priceSEK": 239,
+    "eco": false
+  },
+  {
+    "id": 83,
+    "productName": "Bar Mix - Lime",
+    "priceSEK": 142,
+    "eco": false
+  },
+  {
+    "id": 84,
+    "productName": "Coke - Classic, 355 Ml",
+    "priceSEK": 305,
+    "eco": false
+  },
+  {
+    "id": 85,
+    "productName": "Beef - Bones, Marrow",
+    "priceSEK": 397,
+    "eco": false
+  },
+  {
+    "id": 86,
+    "productName": "Seabream Whole Farmed",
+    "priceSEK": 189,
+    "eco": true
+  },
+  {
+    "id": 87,
+    "productName": "Swiss Chard - Red",
+    "priceSEK": 230,
+    "eco": true
+  },
+  {
+    "id": 88,
+    "productName": "Parasol Pick Stir Stick",
+    "priceSEK": 282,
+    "eco": false
+  },
+  {
+    "id": 89,
+    "productName": "Tart - Lemon",
+    "priceSEK": 160,
+    "eco": true
+  },
+  {
+    "id": 90,
+    "productName": "Grapefruit - Pink",
+    "priceSEK": 60,
+    "eco": true
+  },
+  {
+    "id": 91,
+    "productName": "Coconut Milk - Unsweetened",
+    "priceSEK": 187,
+    "eco": true
+  },
+  {
+    "id": 92,
+    "productName": "Brownies - Two Bite, Chocolate",
+    "priceSEK": 160,
+    "eco": false
+  },
+  {
+    "id": 93,
+    "productName": "Juice - Apple, 341 Ml",
+    "priceSEK": 346,
+    "eco": false
+  },
+  {
+    "id": 94,
+    "productName": "Sachet",
+    "priceSEK": 35,
+    "eco": true
+  },
+  {
+    "id": 95,
+    "productName": "Calypso - Lemonade",
+    "priceSEK": 263,
+    "eco": false
+  },
+  {
+    "id": 96,
+    "productName": "Nut - Hazelnut, Whole",
+    "priceSEK": 219,
+    "eco": false
+  },
+  {
+    "id": 97,
+    "productName": "Wine - Rosso Toscano Igt",
+    "priceSEK": 70,
+    "eco": true
+  },
+  {
+    "id": 98,
+    "productName": "Chocolate - Dark Callets",
+    "priceSEK": 336,
+    "eco": false
+  },
+  {
+    "id": 99,
+    "productName": "Nantuket Peach Orange",
+    "priceSEK": 332,
+    "eco": true
+  },
+  {
+    "id": 100,
+    "productName": "Coconut - Whole",
+    "priceSEK": 262,
+    "eco": false
+  }
+]

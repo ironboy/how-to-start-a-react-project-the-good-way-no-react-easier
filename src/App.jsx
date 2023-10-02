@@ -1,5 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import MainMenu from './MainMenu';
+import Footer from './Footer';
 
 export default function App() {
 
@@ -7,24 +9,19 @@ export default function App() {
 
   useEffect(() => {
     (async () => {
-      setProducts(await (await fetch('/products.json')).json());
+      setProducts(await (await fetch('/api/products')).json());
     })();
   }, []);
 
   return <>
     <header>
-      <h1>I am the header</h1>
-      <nav>
-        <a href="/">Start page</a>&nbsp;
-        <a href="/about-us">About us</a>&nbsp;
-        <a href="/products">Our products</a>
-      </nav>
+      <MainMenu />
     </header>
-    <main>
+    <main className="container mt-5">
       <Outlet context={{ products }} />
     </main>
-    <footer>
-      <h2>I am the footer!</h2>
+    <footer className="container-fluid mt-4">
+      <Footer />
     </footer>
   </>
 }
