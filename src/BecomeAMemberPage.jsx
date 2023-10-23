@@ -1,9 +1,15 @@
 import { Row, Col } from 'react-bootstrap';
 import { useFormDefaults } from './hooksAndUtils/useFormDefaults';
+import { useState } from 'react';
+import { useGet } from './hooksAndUtils/useFetch';
 
 export default function BecomeAMember() {
 
   let { defaults, formData } = useFormDefaults();
+
+  const [people, setPeople] = useState([]);
+  useGet('/api/people', setPeople);
+  console.log('people', people);
 
   return <form>
     <Row><Col>

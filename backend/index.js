@@ -35,6 +35,12 @@ const products = JSON.parse(readFileSync(
 app.get('/api/products', (req, res) => {
   res.json(products);
 });
+const people = JSON.parse(readFileSync(
+  join(__dirname, 'people.json'), 'utf-8'
+));;
+app.get('/api/people', (req, res) => {
+  res.json(people);
+});
 
 // serve the dist folder (the production code for our frontend)
 // that you generate by writing "npm run build"
