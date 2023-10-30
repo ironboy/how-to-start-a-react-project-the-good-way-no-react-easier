@@ -8,12 +8,14 @@ import StartPage from './StartPage.jsx';
 import AboutPage from './AboutPage.jsx';
 import ProductPage from './ProductPage.jsx';
 import BecomeAMemberPage from './BecomeAMemberPage';
+import CatsAndDogs from './CatsAndDogs';
 
 export const pages = [
   { path: '/', label: 'Start', element: <StartPage /> },
   { path: '/about-the-company', label: 'About the company', element: <AboutPage /> },
   { path: '/products', label: 'Our products', element: <ProductPage /> },
-  { path: '/become-a-member', label: 'Become a member', element: <BecomeAMemberPage /> }
+  { path: '/become-a-member', label: 'Become a member', element: <BecomeAMemberPage /> },
+  { path: '/cats-and-dogs', label: 'Cats and dogs', element: <CatsAndDogs /> }
 ];
 
 const router = createBrowserRouter([

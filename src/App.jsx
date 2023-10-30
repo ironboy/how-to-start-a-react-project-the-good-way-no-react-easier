@@ -14,7 +14,6 @@ export default function App() {
       <MainMenu />
     </header>
     <main className="container mt-5">
-      <button className="btn btn-primary" onClick={() => useGet('/api/people', setPeople)}>Fetch again</button>
       <Outlet context={{ products }} />
     </main>
     <footer className="container-fluid mt-4">

@@ -30,19 +30,26 @@ let files = readDirRecursive(srcFolder)
 
 
 // Process files
+let metaData = {};
 for (let file of files) {
   let destPath = file.replace(srcFolder, destFolder);
   let destFolderPath = dirname(destPath);
   // create folder if not exists
   !existsSync(destFolderPath) && mkdirSync(destFolderPath);
   // scale image
+  let key = file.split('/images/sources')[1];
+  metaData[key] = [];
   for (let width of settings.widths) {
     console.log('Scaling ' + basename(file), 'to width', width);
+    let fName = destPath.slice(0, -4) + '-' + width + 'w.jpg';
     await sharp(file)
       .resize({ width, quality: settings.jpgQuality })
-      .toFile(destPath.slice(0, -4) + '-' + width + 'w.jpg');
+      .toFile(fName);
+
+    metaData[key].push(fName.split('/images')[1]);
   }
 }
+// console.log(metaData);
 
 
 // read all files in a folder and its sub folders
