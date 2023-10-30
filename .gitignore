@@ -1,4 +1,6 @@
 .DS_Store
+# Scaled images
+/public/images/scaled
 
 # Logs
 logs
