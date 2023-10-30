@@ -2,14 +2,14 @@ import {
   mkdirSync, rmSync, existsSync,
   readdirSync, statSync
 } from 'fs';
-import sharp from 'sharp';
 import { dirname, join as pathJoin, basename } from 'path';
 import { fileURLToPath } from 'url';
-import { writeFile } from 'fs/promises';
+import sharp from 'sharp';
 
 // Settings
 const settings = {
   jpgQuality: 70,
+  aspect: 16 / 9,
   widths: [250, 500, 1000, 1500, 2000]
 }
 
@@ -28,7 +28,6 @@ mkdirSync(destFolder);
 let files = readDirRecursive(srcFolder)
   .filter(x => x.slice(-4) === '.jpg');
 
-
 // Process files
 let metaData = {};
 for (let file of files) {
@@ -42,10 +41,10 @@ for (let file of files) {
   for (let width of settings.widths) {
     console.log('Scaling ' + basename(file), 'to width', width);
     let fName = destPath.slice(0, -4) + '-' + width + 'w.jpg';
+    let height = Math.round(width / settings.aspect);
     await sharp(file)
-      .resize({ width, quality: settings.jpgQuality })
+      .resize({ width, height, quality: settings.jpgQuality })
       .toFile(fName);
-
     metaData[key].push(fName.split('/images')[1]);
   }
 }
@@ -68,4 +67,3 @@ function readDirRecursive(dir) {
   });
   return results;
 }
-

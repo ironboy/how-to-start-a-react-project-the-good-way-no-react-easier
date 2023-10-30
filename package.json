@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "scale-images": "node image-processing/index.js",
     "start": "concurrently \"npm:backend\" \"npm:dev\"",
     "backend": "nodemon --watch backend backend/index.js",
     "dev": "vite",
