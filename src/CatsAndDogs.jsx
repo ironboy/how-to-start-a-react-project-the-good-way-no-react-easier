@@ -16,7 +16,7 @@ export default function CatsAndDogs() {
       <img className="w-100 mb-3"
         src={srcSetVal.split(' ')[0]}
         srcSet={srcSetVal}
-        sizes={sizesCalc({ xs: 12, md: 6, lg: 4 })}
+        sizes={sizesCalc({ xs: 12, md: 6, lg: 4, xl: 3 })}
       />
     </Col>)}
   </Row>
